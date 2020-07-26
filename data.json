@@ -1,0 +1,24 @@
+{
+  "contacts": [
+    {
+      "text": "+375 (29) 123 45 67",
+      "url": "tel:+375291234567",
+      "id": "kd2vu57e"
+    },
+    {
+      "text": "example@gmail.com",
+      "url": "mailto:example@gmail.com",
+      "id": "kd2vwlb1"
+    },
+    {
+      "text": "instagram",
+      "url": "https://www.instagram.com/",
+      "id": "kd2vwr56"
+    },
+    {
+      "text": "корзина",
+      "url": "#",
+      "id": "kd2vwvci"
+    }
+  ]
+}
