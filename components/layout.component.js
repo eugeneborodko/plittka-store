@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import Header from './header.component'
+import Footer from './footer.component'
 
 export default ({ children, title = 'Интернет-магизин плитки' }) => <>
   <Head>
@@ -11,4 +12,5 @@ export default ({ children, title = 'Интернет-магизин плитк�
   <main className="main">
     {children}
   </main>
+  <Footer />
 </>

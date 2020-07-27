@@ -1,0 +1,17 @@
+.additional-categories {
+  margin: 0;
+  padding: 0 20px;
+  list-style: none;
+
+  &__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  &__link {
+    color: #ffffff;
+
+    &:hover {
+      color: #0070f3;
+    }
+  }
+}
