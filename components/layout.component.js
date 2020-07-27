@@ -9,8 +9,6 @@ export default ({ children, title = 'Интернет-магизин плитк�
   </Head>
   <Header />
   <main className="main">
-    <div className="container">
-      {children}
-    </div>
+    {children}
   </main>
 </>
