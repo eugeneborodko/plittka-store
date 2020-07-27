@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 45px 0;
+  padding: 0 30px;
+
+  &__link {
+    color: #0070f3;
+    font-size: 40px;
+  }
+}
+
+.categories {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+
+  &__item {
+    padding: 0 30px;
+  }
+
+  &__link {
+    color: #222222;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 45px;
+
+    &:hover {
+      color: #0070f3;
+    }
+  }
+}

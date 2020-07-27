@@ -1,4 +1,5 @@
 import Contacts from './contacts.component'
+import Categories from './categories.component'
 import './../styles/header.scss'
 
 export default () =>
@@ -7,5 +8,8 @@ export default () =>
       <div className="container">
         <Contacts />
       </div>
+    </div>
+    <div className="container">
+      <Categories />
     </div>
   </header>
