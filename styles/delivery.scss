@@ -1,0 +1,15 @@
+.delivery {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1000px;
+
+  &__title {
+    font-size: 20px;
+  }
+}
+
+.container {
+  &.container_subtitle {
+    text-align: center;
+  }
+}
