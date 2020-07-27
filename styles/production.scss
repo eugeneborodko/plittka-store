@@ -1,0 +1,44 @@
+.production {
+
+  &__title {
+    text-align: center;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    margin: 0 25px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &:hover a {
+      opacity: 1;
+    }
+  }
+
+  &__name {
+    margin: 40px 0 20px;
+    max-width: 210px;
+    min-height: 46px;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  &__price {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &__btn {
+    display: block;
+    margin: 20px 0;
+    opacity: 0;
+  }
+}

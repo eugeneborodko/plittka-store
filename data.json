@@ -38,5 +38,51 @@
       "name": "водосточные системы",
       "id": "kd486yal"
     }
+  ],
+  "products": [
+    {
+      "best-products": [
+        {
+          "name": "плитка 1",
+          "image": "production/best-products/product-1.png",
+          "price": "90",
+          "id": "kd49uxt5"
+        },
+        {
+          "name": "плитка 2 красная версия",
+          "image": "production/best-products/product-1.png",
+          "price": "1000",
+          "id": "kd49vjvv"
+        },
+        {
+          "name": "плитка 3",
+          "image": "production/best-products/product-1.png",
+          "price": "180",
+          "id": "kd49vqbp"
+        },
+        {
+          "name": "плитка 4",
+          "image": "production/best-products/product-1.png",
+          "price": "200",
+          "id": "kd49vwln"
+        }
+      ]
+    },
+    {
+      "products": [
+        {
+          "name": "плитка 5",
+          "image": "production/best-products/product-1.png",
+          "price": "100",
+          "id": "kd49xel2"
+        },
+        {
+          "name": "плитка 6",
+          "image": "production/best-products/product-1.png",
+          "price": "150",
+          "id": "kd49xrx3"
+        }
+      ]
+    }
   ]
 }
