@@ -2,7 +2,7 @@ import useSWR from 'swr'
 import uniqid from 'uniqid'
 
 import Layout from './../components/layout.component'
-import './../styles/how-to-order.scss'
+import './../styles/payment.scss'
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 const id = uniqid()
@@ -14,13 +14,17 @@ export default () => {
   if (!data) return <div>Загрузка...</div>
 
   return (
-    <Layout title="Как сделать заказ">
+    <Layout title="Оплата">
       <div className="container">
-        <h2 className="title">как сделать заказ</h2>
-        <ul className="how-to-order" key={id}>
+        <h2 className="title">Оплата</h2>
+        <h3 className="container container_subtitle">Способы оплаты</h3>
+        <ul className="payment" key={id}>
           {
-            data['how-to-order'].map((text, index) => (
-              <li className="paragraph how-to-order__item" key={text.id}>{`${index + 1}) ${text.text}`}</li>
+            data['payment'].map((item) => (
+              <li className="payment__item" key={item.id}>
+                <h4 className="payment__title">{item.title}</h4>
+                <p className="paragraph">{item.text}</p>
+              </li>
             ))
           }
         </ul>
