@@ -1,4 +1,5 @@
 import useSWR from 'swr'
+import Link from 'next/link'
 import uniqid from 'uniqid'
 
 import './../styles/additional-categories.scss'
@@ -17,7 +18,7 @@ export default () => {
       {
         data['additional-categories'].map((category) => (
           <li className="additional-categories__item" key={category.id}>
-            <a className="additional-categories__link" href="#">{category.name}</a>
+            <Link href={category.url}><a className="additional-categories__link">{category.name}</a></Link>
           </li>
         ))
       }

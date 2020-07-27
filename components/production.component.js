@@ -7,7 +7,7 @@ const id = uniqid()
 export default ({ products, title }) => {
   return (
     <div className="production">
-      <h2 className="title production__title">{title}</h2>
+      <h2 className="title">{title}</h2>
       <div className="container">
         <div className="production__container" key={id}>
           {

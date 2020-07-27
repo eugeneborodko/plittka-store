@@ -14,7 +14,7 @@ export default () => {
   if (!data) return <div>Загрузка...</div>
 
   return (
-    <Layout title={'Главная'}>
+    <Layout title="Главная">
       <Preview />
       <Production products={data['products'][0]['best-products']} title={'хит продаж'} />
     </Layout>

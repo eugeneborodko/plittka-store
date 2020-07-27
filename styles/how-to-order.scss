@@ -1,0 +1,12 @@
+.how-to-order {
+  margin: 0 auto;
+  padding: 0 0 70px;
+  max-width: 1000px;
+  list-style: none;
+
+  &__item {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: justify;
+  }
+}
