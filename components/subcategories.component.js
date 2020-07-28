@@ -1,4 +1,5 @@
 import useSWR from 'swr'
+import Link from 'next/link'
 import uniqid from 'uniqid'
 
 import './../styles/subcategories.scss'
@@ -18,7 +19,9 @@ export default ({ subcategories }) => {
         subcategories ? (
           subcategories.map((subcategory) => (
             <li className="subcategories__item" key={subcategory.id}>
-              <a className="subcategories__link" href="#">{subcategory.name}</a>
+              <Link href="/production/[id]" as={`/production/${data['categories'][0].id}#${subcategory.id}`}>
+                <a className="subcategories__link">{subcategory.name}</a>
+              </Link>
             </li>
           ))
         ) : null

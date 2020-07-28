@@ -23,7 +23,9 @@ export default () => {
         {
           data['categories'].map((category) => (
             <li className="categories__item" key={category.id} >
-              <a className="categories__link" href="#" >{category.name}</a>
+              <Link href="/production/[id]" as={`/production/${category.id}`}>
+                <a className="categories__link">{category.name}</a>
+              </Link>
               <Subcategories subcategories={category.subcategory ?? null} />
             </li>
           ))

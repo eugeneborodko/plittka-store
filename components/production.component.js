@@ -5,10 +5,10 @@ import './../styles/production.scss'
 
 const id = uniqid()
 
-export default ({ products, title }) => {
+export default ({ products, title, titleId }) => {
   return (
     <div className="production">
-      <h2 className="title">{title}</h2>
+      <h2 className="title" id={titleId}>{title}</h2>
       <div className="container">
         <div className="production__container" key={id}>
           {

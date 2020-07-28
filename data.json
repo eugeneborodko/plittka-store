@@ -28,37 +28,141 @@
       "subcategory": [
         {
           "name": "Вибропресс",
-          "id": "kclzyuj3"
+          "id": "kclzyuj3",
+          "production": [
+            {
+              "name": "product 1",
+              "id": "kcu6hw5m",
+              "image": "production/best-products/product-1.png",
+              "price": 2288,
+              "description": " nopee",
+              "composition": "nothingb"
+            }
+          ]
         },
         {
           "name": "Вибролитьё",
-          "id": "kcpxmedh"
+          "id": "kcpxmedh",
+          "production": [
+            {
+              "name": "product 8",
+              "id": "kcu6ivzu",
+              "image": "production/best-products/product-1.png",
+              "price": 100,
+              "description": " nopee",
+              "composition": "nothingb"
+            },
+            {
+              "name": "product 9",
+              "id": "kcu6l8ri",
+              "image": "production/best-products/product-1.png",
+              "price": 111,
+              "description": " nopee",
+              "composition": "nothingb"
+            }
+          ]
         },
         {
           "name": "Гиперпресс",
-          "id": "kcpxmlgo"
+          "id": "kcpxmlgo",
+          "production": [
+            {
+              "name": "product 10",
+              "id": "kcu6j94k",
+              "image": "production/best-products/product-1.png",
+              "price": 444,
+              "description": " nopee",
+              "composition": "nothingb"
+            }
+          ]
         },
         {
           "name": "Полимербетон",
-          "id": "kcpxmths"
+          "id": "kcpxmths",
+          "production": [
+            {
+              "name": "product 20",
+              "id": "kcu6jnmf",
+              "image": "production/best-products/product-1.png",
+              "price": 88,
+              "description": " nopee",
+              "composition": "nothingb"
+            }
+          ]
         },
         {
           "name": "Пластик",
-          "id": "kcpxn1df"
+          "id": "kcpxn1df",
+          "production": [
+            {
+              "name": "product 228",
+              "id": "kcud1gnb",
+              "image": "production/best-products/product-1.png",
+              "price": 333,
+              "description": " nopee",
+              "composition": "nothingb"
+            }
+          ]
         }
       ]
     },
     {
       "name": "тактильная плитка",
-      "id": "kd484xo2"
+      "id": "kd484xo2",
+      "production": [
+        {
+          "name": "product 88",
+          "id": "kcu6idsu",
+          "image": "production/best-products/product-1.png",
+          "price": 1000,
+          "description": " nopee",
+          "composition": "nothingb"
+        },
+        {
+          "name": "product 99",
+          "id": "kcu6h3ri",
+          "image": "production/best-products/product-1.png",
+          "price": 1111,
+          "description": " nopee",
+          "composition": "nothingb"
+        }
+      ]
     },
     {
       "name": "бордюрный камень",
-      "id": "kd485vjj"
+      "id": "kd485vjj",
+      "production": [
+        {
+          "name": "product 888",
+          "id": "kfejidsu",
+          "image": "production/best-products/product-1.png",
+          "price": 100,
+          "description": " nopee",
+          "composition": "nothingb"
+        },
+        {
+          "name": "product 999",
+          "id": "kculscri",
+          "image": "production/best-products/product-1.png",
+          "price": 111,
+          "description": " nopee",
+          "composition": "nothingb"
+        }
+      ]
     },
     {
       "name": "водосточные системы",
-      "id": "kd486yal"
+      "id": "kd486yal",
+      "production": [
+        {
+          "name": "product 7788",
+          "id": "kcuerwsu",
+          "image": "production/best-products/product-1.png",
+          "price": 1000,
+          "description": " nopee",
+          "composition": "nothingb"
+        }
+      ]
     }
   ],
   "products": [
@@ -99,28 +203,6 @@
           "composition": "Curabitur lorem ante, dapibus a fringilla vitae, fringilla eget massa. Mauris odio turpis, molestie ac ante ac, condimentum convallis nulla.",
           "delivery": "Стоимость доставки составляет 7 руб. При заказе от 3 штук доставка БЕСПЛАТНАЯ",
           "id": "kd49vwln"
-        }
-      ]
-    },
-    {
-      "products": [
-        {
-          "name": "плитка 5",
-          "image": "production/best-products/product-1.png",
-          "price": "100",
-          "description": "Etiam nec molestie odio. Proin sed nisi tincidunt, ornare arcu id, dignissim libero. Aenean ut purus nec enim hendrerit mollis eget sed elit. Nullam non ante pharetra, dictum tortor vitae, consequat enim.",
-          "composition": "Curabitur lorem ante, dapibus a fringilla vitae, fringilla eget massa. Mauris odio turpis, molestie ac ante ac, condimentum convallis nulla.",
-          "delivery": "Стоимость доставки составляет 7 руб. При заказе от 3 штук доставка БЕСПЛАТНАЯ",
-          "id": "kd49xel2"
-        },
-        {
-          "name": "плитка 6",
-          "image": "production/best-products/product-1.png",
-          "price": "150",
-          "description": "Etiam nec molestie odio. Proin sed nisi tincidunt, ornare arcu id, dignissim libero. Aenean ut purus nec enim hendrerit mollis eget sed elit. Nullam non ante pharetra, dictum tortor vitae, consequat enim.",
-          "composition": "Curabitur lorem ante, dapibus a fringilla vitae, fringilla eget massa. Mauris odio turpis, molestie ac ante ac, condimentum convallis nulla.",
-          "delivery": "Стоимость доставки составляет 7 руб. При заказе от 3 штук доставка БЕСПЛАТНАЯ",
-          "id": "kd49xrx3"
         }
       ]
     }
