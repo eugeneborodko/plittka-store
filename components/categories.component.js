@@ -2,6 +2,7 @@ import useSWR from 'swr'
 import Link from 'next/link'
 import uniqid from 'uniqid'
 
+import Subcategories from './subcategories.component'
 import './../styles/categories.scss'
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
@@ -21,12 +22,13 @@ export default () => {
       <ul className="categories" key={id}>
         {
           data['categories'].map((category) => (
-            <li className="categories__item" key={category.id}>
+            <li className="categories__item" key={category.id} >
               <a className="categories__link" href="#" >{category.name}</a>
+              <Subcategories subcategories={category.subcategory ?? null} />
             </li>
           ))
         }
       </ul>
-    </nav>
+    </nav >
   )
 }

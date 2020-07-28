@@ -24,7 +24,29 @@
   "categories": [
     {
       "name": "плитка",
-      "id": "kd483351"
+      "id": "kd483351",
+      "subcategory": [
+        {
+          "name": "Вибропресс",
+          "id": "kclzyuj3"
+        },
+        {
+          "name": "Вибролитьё",
+          "id": "kcpxmedh"
+        },
+        {
+          "name": "Гиперпресс",
+          "id": "kcpxmlgo"
+        },
+        {
+          "name": "Полимербетон",
+          "id": "kcpxmths"
+        },
+        {
+          "name": "Пластик",
+          "id": "kcpxn1df"
+        }
+      ]
     },
     {
       "name": "тактильная плитка",

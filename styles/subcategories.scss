@@ -1,0 +1,24 @@
+.subcategories {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  z-index: 1;
+  margin: 0;
+  padding: 20px;
+  display: none;
+  list-style: none;
+  background: #ffffff;
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__link {
+    color: #222222;
+    &:hover {
+      color: #0070f3;
+    }
+  }
+}
