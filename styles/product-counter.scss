@@ -1,0 +1,25 @@
+.product-counter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__item {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: 1px solid #222222;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  &__input {
+    margin: 0 10px;
+    width: 33px;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+  }
+}

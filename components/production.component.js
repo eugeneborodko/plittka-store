@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import uniqid from 'uniqid'
 
 import './../styles/production.scss'
@@ -16,7 +17,9 @@ export default ({ products, title }) => {
                 <img className="production__image" src={`/images/${product.image}`} alt={`Товар ${index + 1}`} width="300" height="200" />
                 <h3 className="production__name">{product.name}</h3>
                 <span className="production__price">{product.price} byn</span>
-                <a className="btn production__btn" href="#">Подробнее</a>
+                <Link href="/product/[id]" as={`/product/${product.id}`}>
+                  <a className="btn production__btn">Подробнее</a>
+                </Link>
               </div>
             ))
           }

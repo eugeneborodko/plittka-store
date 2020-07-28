@@ -46,24 +46,36 @@
           "name": "плитка 1",
           "image": "production/best-products/product-1.png",
           "price": "90",
+          "description": "Etiam nec molestie odio. Proin sed nisi tincidunt, ornare arcu id, dignissim libero. Aenean ut purus nec enim hendrerit mollis eget sed elit. Nullam non ante pharetra, dictum tortor vitae, consequat enim.",
+          "composition": "Curabitur lorem ante, dapibus a fringilla vitae, fringilla eget massa. Mauris odio turpis, molestie ac ante ac, condimentum convallis nulla.",
+          "delivery": "Стоимость доставки составляет 7 руб. При заказе от 3 штук доставка БЕСПЛАТНАЯ",
           "id": "kd49uxt5"
         },
         {
           "name": "плитка 2 красная версия",
           "image": "production/best-products/product-1.png",
           "price": "1000",
+          "description": "Etiam nec molestie odio. Proin sed nisi tincidunt, ornare arcu id, dignissim libero. Aenean ut purus nec enim hendrerit mollis eget sed elit. Nullam non ante pharetra, dictum tortor vitae, consequat enim.",
+          "composition": "Curabitur lorem ante, dapibus a fringilla vitae, fringilla eget massa. Mauris odio turpis, molestie ac ante ac, condimentum convallis nulla.",
+          "delivery": "Стоимость доставки составляет 7 руб. При заказе от 3 штук доставка БЕСПЛАТНАЯ",
           "id": "kd49vjvv"
         },
         {
           "name": "плитка 3",
           "image": "production/best-products/product-1.png",
           "price": "180",
+          "description": "Etiam nec molestie odio. Proin sed nisi tincidunt, ornare arcu id, dignissim libero. Aenean ut purus nec enim hendrerit mollis eget sed elit. Nullam non ante pharetra, dictum tortor vitae, consequat enim.",
+          "composition": "Curabitur lorem ante, dapibus a fringilla vitae, fringilla eget massa. Mauris odio turpis, molestie ac ante ac, condimentum convallis nulla.",
+          "delivery": "Стоимость доставки составляет 7 руб. При заказе от 3 штук доставка БЕСПЛАТНАЯ",
           "id": "kd49vqbp"
         },
         {
           "name": "плитка 4",
           "image": "production/best-products/product-1.png",
           "price": "200",
+          "description": "Etiam nec molestie odio. Proin sed nisi tincidunt, ornare arcu id, dignissim libero. Aenean ut purus nec enim hendrerit mollis eget sed elit. Nullam non ante pharetra, dictum tortor vitae, consequat enim.",
+          "composition": "Curabitur lorem ante, dapibus a fringilla vitae, fringilla eget massa. Mauris odio turpis, molestie ac ante ac, condimentum convallis nulla.",
+          "delivery": "Стоимость доставки составляет 7 руб. При заказе от 3 штук доставка БЕСПЛАТНАЯ",
           "id": "kd49vwln"
         }
       ]
@@ -74,12 +86,18 @@
           "name": "плитка 5",
           "image": "production/best-products/product-1.png",
           "price": "100",
+          "description": "Etiam nec molestie odio. Proin sed nisi tincidunt, ornare arcu id, dignissim libero. Aenean ut purus nec enim hendrerit mollis eget sed elit. Nullam non ante pharetra, dictum tortor vitae, consequat enim.",
+          "composition": "Curabitur lorem ante, dapibus a fringilla vitae, fringilla eget massa. Mauris odio turpis, molestie ac ante ac, condimentum convallis nulla.",
+          "delivery": "Стоимость доставки составляет 7 руб. При заказе от 3 штук доставка БЕСПЛАТНАЯ",
           "id": "kd49xel2"
         },
         {
           "name": "плитка 6",
           "image": "production/best-products/product-1.png",
           "price": "150",
+          "description": "Etiam nec molestie odio. Proin sed nisi tincidunt, ornare arcu id, dignissim libero. Aenean ut purus nec enim hendrerit mollis eget sed elit. Nullam non ante pharetra, dictum tortor vitae, consequat enim.",
+          "composition": "Curabitur lorem ante, dapibus a fringilla vitae, fringilla eget massa. Mauris odio turpis, molestie ac ante ac, condimentum convallis nulla.",
+          "delivery": "Стоимость доставки составляет 7 руб. При заказе от 3 штук доставка БЕСПЛАТНАЯ",
           "id": "kd49xrx3"
         }
       ]

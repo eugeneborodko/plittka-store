@@ -1,0 +1,21 @@
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__info {
+    margin-bottom: 70px;
+    padding: 0 30px;
+    max-width: 800px;
+  }
+
+  &__price {
+    color: #0070f3;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+  &__btn {
+    line-height: 60px;
+  }
+}
