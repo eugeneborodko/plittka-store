@@ -1,0 +1,17 @@
+.basket {
+  padding-bottom: 70px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__caption {
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 28px;
+    background: #0070f3;
+  }
+}

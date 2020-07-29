@@ -4,8 +4,8 @@ import AdditionalCategories from './additional-categories.component'
 import OwnerInfo from './owner-info.component'
 import './../styles/footer.scss'
 
-export default () =>
-  <footer className="footer">
+export default ({ additionalClassName }) =>
+  <footer className={`footer ${additionalClassName}`}>
     <div className="container">
       <nav className="nav">
         <div className="logo">

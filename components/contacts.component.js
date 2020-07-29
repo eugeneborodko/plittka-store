@@ -1,4 +1,5 @@
 import useSWR from 'swr'
+import Link from 'next/link'
 import uniqid from 'uniqid'
 
 import './../styles/contacts.scss'
@@ -17,7 +18,15 @@ export default () => {
       {
         data['contacts'].map((contact, index) => (
           <li className="contacts__item" key={contact.id}>
-            <a className={`contacts__link contacts__link_bg_${index + 1}`} href={contact.url}>{contact.text}</a>
+            {
+              contact.url === '/basket' ? (
+                <Link href={contact.url}>
+                  <a className={`contacts__link contacts__link_bg_${index + 1}`}>{contact.text}</a>
+                </Link>
+              ) : (
+                  <a className={`contacts__link contacts__link_bg_${index + 1}`} href={contact.url}>{contact.text}</a>
+                )
+            }
           </li>
         ))
       }
